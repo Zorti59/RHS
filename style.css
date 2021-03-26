@@ -38,6 +38,7 @@
     transform: translateY(-100%);
     transition: transform 0.2s ease;
     z-index: 1;
+    background: #122644;
   }
 
   .showNav {
@@ -84,7 +85,9 @@ p, a {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    z-index: 1;
 }
+
 
 .navbar li a {
     text-decoration: none;
@@ -281,6 +284,9 @@ h2 {
     
     .image-header-home {
         display: block ;
+    }
+    .nav-ham {
+        display: none;
     }
 }
 
