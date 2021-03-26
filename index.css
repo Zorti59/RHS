@@ -36,11 +36,11 @@
         background-color: #ffffff ;
         transition: all 0.25s ease-in-out ;
         }
-        .main-content-title button:hover, .main-button button:hover {
-            background-color: #fb2727 ;
-            border-color: #fb2727;
-            color: #ffffff ;
-        }
+.main-content-title button:hover, .main-button button:hover {
+        background-color: #fb2727 ;
+        border-color: #fb2727;
+        color: #ffffff ;
+}
 
 
 .line-card {
@@ -115,6 +115,203 @@
 
 
 
+/*outils.html*/
+.main-content-title-tools {
+    display: flex;
+    justify-content: center;
+}
+
+.keywords {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    color: #ada8a8;
+    margin-bottom: 30px;
+}
+/**/
+
+
+/*collectif*/
+.content {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px #ada8a8;
+    margin-left: 10%;
+    position: relative;
+    bottom: 50px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+
+.content img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.content-inside {
+    display: flex;
+}
+
+.content-text {
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-list {
+    width: 30%;
+    padding-top: 20px;
+}
+
+.content-list ul {
+    border-left: 1px solid #ada8a8;
+    list-style: none;
+    color: #ada8a8;
+}
+
+.content-video {
+    background-color: #ada8a8;
+}
+
+.list-fiche {
+    list-style: none;
+}
+/**/
+
+
+
+
+/*inspiration*/
+.h1-boogaloo-inspi {
+    font-size: 41px !important;
+}
+
+@media screen and (min-width: 992px) {
+    .h1-boogaloo-inspi {
+        color: #fff;
+        font-family: 'Boogaloo';
+        text-align: center;
+        transform: rotate(-5deg);
+        padding-top: 10px;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 70px !important;
+    }
+
+    .pc {
+        display: block !important;
+    }
+    .li-ham {
+        display: none;
+    }
+
+    .content p {
+        font-size: 20px !important;
+      
+    }
+
+    video {
+        height: 400px;
+    }
+
+/* footer */
+footer {
+    background-color: #122644;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+footer li {
+    font-size: 17px;
+}
+
+.footer-logo img {
+    width: 70px;
+}
+.container-footer {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.text-footer {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.list-files ul, 
+.list-episodes ul {
+    list-style: none;
+}
+
+.bar {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .content-video {
+        width: 80% !important;
+        margin-left: 10%;
+    }
+
+    .content p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .content-list ul {
+        margin-left: 10%;
+    }
+
+    .content-inside {
+        display: flex !important;
+    }
+
+    .content-text-inside {
+        width: 100%;
+        border-right: 1px solid #ada8a8;
+    }
+
+    .content-inside ul li {
+        width: 60% !important;
+    }
+}
+/**/
+
+
+/*contact*/
+.content-contact {
+    height: 500px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px #ada8a8;
+    margin-left: 10%;
+    position: relative;
+    bottom: 50px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+/**/
+
+
+
 @media screen and (min-width: 1200px) {
 
 .main-content-title {
@@ -155,4 +352,10 @@
     height: 400px;
     margin-right: 15%;
 }
+}
+
+@media screen and (min-width: 1900px) {
+    .content-video video{
+       height: 500px;
+    }
 }
