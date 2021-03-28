@@ -463,7 +463,6 @@ p, a {
 
 .navbar li a:hover{
     color: red;
-    border-bottom: 1px solid red;
     transition: 1s;
 }
 
@@ -474,6 +473,10 @@ p, a {
 }
 footer li {
     font-size: 20px;
+}
+
+.nav-ham {
+    display: none;
 }
 
 }
