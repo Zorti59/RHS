@@ -11,6 +11,6 @@ let menuLinks = document.querySelectorAll('.menuLink');
 
 menuLinks.forEach(
     function(menuLink){
-      menuLink.addEventListener('click', openMenu);
+      menuLink.addEventListener('click', openMen  u);
     }
   )
