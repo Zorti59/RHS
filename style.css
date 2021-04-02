@@ -38,6 +38,7 @@
     transform: translateY(-100%);
     transition: transform 0.2s ease;
     z-index: 1;
+    background: #122644;
   }
 
   .showNav {
@@ -84,7 +85,9 @@ p, a {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    z-index: 1;
 }
+
 
 .navbar li a {
     text-decoration: none;
@@ -149,7 +152,7 @@ footer p{
     color: #fff;
     text-align: center;
     width: 100%;
-    font-family: 'Boogaloo';
+    font-family: 'Boogaloo', cursive;
     transform: rotate(-5deg);
 }
 
@@ -189,9 +192,6 @@ footer p{
     display: block;
 }
 
-.content-list ul {
-    border-left: none;
-}
 .home-title {
     color: #fff;
     width: 50%;
@@ -281,6 +281,9 @@ h2 {
     
     .image-header-home {
         display: block ;
+    }
+    .nav-ham {
+        display: none;
     }
 }
 
@@ -460,7 +463,6 @@ p, a {
 
 .navbar li a:hover{
     color: red;
-    border-bottom: 1px solid red;
     transition: 1s;
 }
 
@@ -471,6 +473,10 @@ p, a {
 }
 footer li {
     font-size: 20px;
+}
+
+.nav-ham {
+    display: none;
 }
 
 }

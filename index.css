@@ -276,17 +276,8 @@ footer li {
         margin-left: 10%;
     }
 
-    .content-list ul {
-        margin-left: 10%;
-    }
-
     .content-inside {
         display: flex !important;
-    }
-
-    .content-text-inside {
-        width: 100%;
-        border-right: 1px solid #ada8a8;
     }
 
     .content-inside ul li {
@@ -357,5 +348,8 @@ footer li {
 @media screen and (min-width: 1900px) {
     .content-video video{
        height: 500px;
+    }
+    .content-list ul {
+        margin-left: 10%;
     }
 }
